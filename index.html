@@ -37,17 +37,45 @@
             </div>
         </div>
        </section>
-       <div class="form-div">
+       <div class="mul-div">
             <h1>Login Form</h1>
-            <form class="form-one" action="">
-                <label for="Fast-Name">Fast-Name:</label>
-                <input type="text" name="" id="Fast-Name" placeholder="Fast-Name" required><br><br>
-                <label for="Last-Name">Last-Name</label>
-                <input type="text" name="Last-Name" id="Last-Name"><br><br>
-                <input class="boton" type="submit" value="Submit">
-            </form>
-       </div>
+            <div class="form-div">
+                <fieldset>
+                    <legend>Shuvo web-development</legend>
+                    <form class="form-one" action="">
+                        <label for="Fast-Name">Fast-Name:</label><br>
+                        <input type="text" name="" id="Fast-Name" placeholder="Fast-Name" required><br><br>
+                        <label for="Last-Name">Last-Name</label><br>
+                        <input type="text" name="Last-Name" id="Last-Name" placeholder="Last-Name"><br><br>
+                        <label for="number">Your-Number:</label><br>
+                        <input type="number" name="number" id="number" placeholder="Your-Number" required><br><br>
+                        <label for="date" > Date of Birth</label><br>
+                        <input type="date" name="date" id="date" required min="5" max="11"><br><br>
+                        <label for="select" >Select Your  country</label><br>
+                        <select name="select" id="select">
+                            <option value="	Barbade">Barbade</option>
+                            <option value="	Bangladesh">Bangladesh</option>
+                            <option value="	Select Your Country" selected disabled hidden>Select Your Country</option>
+                            <option value="	Bulgarie">	Bulgarie</option>
+                            <option value="	Tchad">	Tchad</option>
+                            <option value="	Gabon">	Gabon</option>
+                            <option value="	Chine">	Chine</option>
+                        </select><br><br>
+                        <label for="email">Your Email</label><br>
+                        <input type="email" name="email" id="email" placeholder="Your -Email">
+                        <div class="input-text">
+                            <input type="submit" value="submit">
+                            <input type="reset" value="Reset">
+                        </div>
+                    </form>
+                    <div class="photo">
+                        <img src="img/from-photo.jpg" alt="">
+                    </div>
 
+                </fieldset>
+                
+            </div>
+       </div>
    </main>
    
 </body>

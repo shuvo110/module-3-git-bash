@@ -65,33 +65,83 @@ header> .div-text h2 .text-design{
 }
 
 /*2 from section code start  */
-.form-div{
-    width: 800px;
-    border: 1px solid red;
-    margin: 20px auto;
-    padding: 20px 10px;
-    text-align: center;
+.mul-div{
+    background-color: rgba(137, 43, 226, 0.123);
+    padding:20px 0px 90px 0px;
 }
-.form-div h1{
+.mul-div h1{
     margin: 10px 0px 30px 0px;
     color: rgba(0, 0, 0, 0.726);
     text-shadow: 2px 2px 1px rgba(142, 40, 243, 0.795);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 35px;
+    text-align: center;
+    padding: 20px 0px;
+}
+.form-div fieldset{
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+    margin:auto;
+    padding: 18px;
+    
+}
+.form-div fieldset legend{
+    color: rgb(150, 40, 40);
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    letter-spacing:3px;
 }
 .form-div .form-one{
-    font-size: 20px;
-    border: 1px solid;
-
+    font-size:20px;
+    width: 300px;
+    padding:0px 10px 20px 10px;
+}
+.form-div .photo{
+    width:350px;
+    height:400px;
+    filter: blur(2px);
+}
+.form-div .photo img{
+    width: 100%;
+    height: 100%;
+    opacity:0.3;
 }
 .form-div .form-one input{
+    font-size: 17px;
+    margin-left: 10px;
     width: 200px;
-    height: 20px;
+    height:30px;
+    background: none;
+    border: none;
+    outline: none;
+    border-bottom:1px solid rgba(102, 51, 153, 0.527);
 }
-
-.boton{
-    background-color: rebeccapurple;
-    display:inline-block;
-    width: 10px;
-    height: 20px;
+.form-div .form-one input::placeholder{
+    color: rgba(17, 0, 255, 0.644);
+    padding: 0px 5px;
+    font-size:15px ;
+}
+.form-div .form-one #select{
+    color:rgba(0, 0, 0, 0.774);
+    padding: 3px 10px;
+    font-size:15px;
+    width: 200px;
+    outline: none;
+    border:1px solid;
+    border-radius:10px;
+    margin-top: 6px;
+   background: none;
+}
+.form-div> fieldset> .form-one> .input-text input{
+    margin-top:30px;
+    background-color: rgb(226, 225, 225);
+    width: 100px;
+    border: 2px solid;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.form-div> fieldset> .form-one> .input-text input:hover{
+    background-color: rgba(127, 255, 212, 0.699);
 }
